@@ -1,7 +1,18 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #241f2b;
+    color: #b9b9ce;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    width: 40%;
+    margin: auto;
 }
 
 .syntax {
     font-family: 'Courier New', Courier, monospace;
+    background-color: #130e1a;
+    padding: 4px;
+    border-radius: 4px;
 }
