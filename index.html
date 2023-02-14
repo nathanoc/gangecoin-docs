@@ -34,7 +34,7 @@
             <h3>Give</h3>
             <p>Syntax: <span class="syntax">give [target email] [amount]</span></p>
             <p>Sends a given amount of GangeCoin to an address, provided they have an account. The payee will receive an email informing them of the transaction.</p>
-            <p>If the value paid is negative, a robbery will be attempted. This has a 1/2 chance of success. If successful, any amount of GangeCoin can be stolen, even if this leaves the victim with a negative balance. If unsuccessful, the thief's balance will be reset to zero, and all their subsequent robbery attempts for a period afterward will also fail.</p>
+            <p>If the value paid is negative, a robbery will be attempted. This has a chance of success inversely proportional to the amount attempted to steal, with a minimum probability of 0.1% and a maximum of 50%. If successful, any amount of GangeCoin can be stolen, even if this leaves the victim with a negative balance. If unsuccessful, the thief's balance will be reset to zero, and all their subsequent robbery attempts for a period afterward will also fail.</p>
             <p><em>The target email is case-sensitive.</em></p>
 
             <h3>Help</h3>
